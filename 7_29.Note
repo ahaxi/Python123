@@ -1,0 +1,14 @@
+>>> line
+'\r what ?'
+
+>>> line.replace(r'\r', "(carriagereturn)")
+'\r what ?'
+
+>>> x = line.replace('\n', "(carriagereturn)")
+>>> x
+'what(carriagereturn)'
+
+>>> line = '\\n'
+>>> x = line.replace(r'\n', "(carriagereturn)")
+>>> x
+'(carriagereturn)'
