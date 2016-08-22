@@ -1,6 +1,4 @@
-Python123
+python_scripts_misc
 =========
 
-Learning Python
 
-Phase 1 Code Academy
